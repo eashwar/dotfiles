@@ -54,7 +54,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 let g:airline_theme='wombat'
 syntax on
-" colorscheme monokai
-" set t_Co=256
-" set term=screen-256color
-" set t_ut=
+colorscheme monokai
+set t_Co=256
+set term=screen-256color
+set t_ut=
