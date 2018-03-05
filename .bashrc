@@ -69,15 +69,6 @@ alias l='ls -CF'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -132,5 +123,3 @@ export PS1="$PS1\[\033[38;5;28m\]]\[\033[m\]" # close bracket, default bg and li
 export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
 
 export PS2="\[\033[1;38;5;117m\]close your quotes dummy\[\033[m\] > "
-
-
