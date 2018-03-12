@@ -89,6 +89,7 @@ export PATH=$PATH:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/as
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
+alias astyle='astyle --style=allman -t4 -C'
 alias chrome='chrome.exe'
 alias node='node.exe'
 alias sl='sl -e -a'
