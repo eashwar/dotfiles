@@ -85,6 +85,7 @@ cd ~/../../mnt/c/Users/eashw
 export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/
 export PATH=$PATH:/mnt/c/Program\ Files/nodesjs/
 export PATH=$PATH:/mnt/c/Users/eashw/Documents/GitHub/now-playing
+export PATH=$PATH:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
