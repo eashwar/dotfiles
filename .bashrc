@@ -81,6 +81,8 @@ if ! shopt -oq posix; then
 fi
 cd ~/../../mnt/c/Users/eashw
 
+## OTHER ENV VARIABLES
+export DISPLAY=localhost:0.0
 ## PATHS
 export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/
 export PATH=$PATH:/mnt/c/Program\ Files/nodesjs/
@@ -107,7 +109,7 @@ alias syncat='pygmentize -g'
 alias launch='cmd.exe /C start'
 alias winroot='cd && cd ~/../../mnt/c/Users/eashw'
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
-
+alias caen='ssh -X caen'
 
 
 ## PS1 AND PS2 DEFINITION
