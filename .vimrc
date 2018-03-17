@@ -84,7 +84,7 @@ let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
 
 syntax on
-colorscheme monokai 
 set t_Co=256
-set term=screen-256color
+set term=xterm-256color
 set t_ut=
+colorscheme monokai 

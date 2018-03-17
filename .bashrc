@@ -111,7 +111,6 @@ alias winroot='cd && cd ~/../../mnt/c/Users/eashw'
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
 
-
 ## PS1 AND PS2 DEFINITION
 #export PS1="\$(spotify)\n"
 #export PS1="$PS1\[\033[38;5;135m\]|\[\033[m\]" # Pipe, default bg and purple
