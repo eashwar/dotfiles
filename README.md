@@ -1,7 +1,7 @@
 # dotfiles
 I guess it's cool to have one of these
 
-## ABOUT
+# ABOUT
 
 ### Why does my `.bashrc` look so quirky?
 
