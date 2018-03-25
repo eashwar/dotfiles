@@ -1,14 +1,1 @@
-[user]
-	email = eashwar@umich.edu
-	name = Eashwar Mohan
-[credential]
-	helper = cache
-[core]
-	editor = vim
-	autocrlf = input
-	safecrlf = false
-[push]
-	default = matching
-[alias]
-	dog = log --all --decorate --oneline --graph
-	ssh = remote set-url origin
+/home/eashw/.gitconfig
