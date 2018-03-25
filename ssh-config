@@ -1,0 +1,21 @@
+
+Host caen login.engin.umich.edu
+  HostName login.engin.umich.edu
+  User eashwar
+  ControlMaster auto
+  ControlPath ~/.ssh/_%r@%h:%p
+  ControlPersist 43200
+
+Host occaen
+  HostName oncampus-course.engin.umich.edu
+  User eashwar
+
+Host github
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github
+
+Host metalface
+  HostName localhost
+  User eashw
+  Port 6290
