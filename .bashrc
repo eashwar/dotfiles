@@ -120,9 +120,9 @@ export PS1="$PS1\[\033[38;5;135m\]|\[\033[m\]" # Pipe, default bg and purple
 export PS1="$PS1\[\033[1;38;5;14m\]\u\[\033[m\]" # Username, black and cyan
 export PS1="$PS1\[\033[38;5;32m\]@\[\033[m\]" # at symbol, default bg and blue
 export PS1="$PS1\[\033[1;38;5;32m\]\h\[\033[m\]" # hostname, default bg and blue
-export PS1="$PS1\[\033[38;5;28m\][\[\033[m\]" # open bracket, default bg and light green
-export PS1="$PS1\[\033[1;38;5;28m\]\W\[\033[m\]" # working dir, default bg and light green
-export PS1="$PS1\[\033[38;5;28m\]]\[\033[m\]" # close bracket, default bg and light green
+export PS1="$PS1\[\033[38;5;9m\][\[\033[m\]" # open bracket, default bg and red 
+export PS1="$PS1\[\033[1;38;5;9m\]\W\[\033[m\]" # working dir, default bg and red
+export PS1="$PS1\[\033[38;5;9m\]]\[\033[m\]" # close bracket, default bg and red 
 export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
 
 export PS2="\[\033[1;38;5;117m\]close your quotes dummy\[\033[m\] > "
