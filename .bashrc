@@ -79,7 +79,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-cd ~/../../mnt/c/Users/eashw
 
 ## OTHER ENV VARIABLES
 export DISPLAY=localhost:0.0
