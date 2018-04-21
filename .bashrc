@@ -97,7 +97,6 @@ eval $(thefuck --alias heck)
 alias updaterino='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
 alias website='cd && cd ~/../../mnt/c/Users/eashw/Documents/GitHub/eashwar.github.io'
-alias fa18='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018'
 alias 281='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/EECS281'
 alias 370='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/EECS370'
 alias 250='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/STATS250'
