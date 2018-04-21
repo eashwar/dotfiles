@@ -83,10 +83,7 @@ fi
 ## OTHER ENV VARIABLES
 export DISPLAY=localhost:0.0
 ## PATHS
-export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/
-export PATH=$PATH:/mnt/c/Program\ Files/nodesjs/
-export PATH=$PATH:/mnt/c/Users/eashw/Documents/GitHub/now-playing
-export PATH=$PATH:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/
+export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/Users/eashw/Documents/GitHub/now-playing:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
@@ -99,11 +96,13 @@ eval $(thefuck --alias)
 eval $(thefuck --alias heck)
 alias updaterino='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
-alias jek='jekyll serve --force_polling --incremental'
-alias website='cd && cd ~/../../mnt/c/Users/eashw/Documents/GitHub/eashwar.github.io && jekyll serve'
-alias elozip='zip ../elobot.zip -r auth.json bot.js data elobot.png package.json package-lock.json'
-alias cowracle='fortune | cowsay'
-alias wi18='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/WI2018'
+alias website='cd && cd ~/../../mnt/c/Users/eashw/Documents/GitHub/eashwar.github.io'
+alias fa18='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018'
+alias 281='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/EECS281'
+alias 370='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/EECS370'
+alias 250='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/STATS250'
+alias 137='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/THEORY137'
+alias 391='cd && cd ~/../../mnt/c/Users/eashw/Google\ Drive/Documents/umich/FA2018/MUSPERF391'
 alias syncat='pygmentize -g'
 alias launch='cmd.exe /C start'
 alias winroot='cd && cd ~/../../mnt/c/Users/eashw'
