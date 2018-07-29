@@ -104,7 +104,7 @@ alias 137='cd && cd ~/../../mnt/c/Users/eashw/OneDrive/umich/FA2018/THEORY137'
 alias 391='cd && cd ~/../../mnt/c/Users/eashw/OneDrive/umich/FA2018/MUSPERF391'
 alias syncat='pygmentize -g'
 alias launch='cmd.exe /C start'
-alias winroot='cd && cd ~/../../mnt/c/Users/eashw'
+alias home='cd && cd ~/../../mnt/c/Users/eashw'
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
 
