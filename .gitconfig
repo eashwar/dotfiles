@@ -12,3 +12,4 @@
 [alias]
 	dog = log --all --decorate --oneline --graph
 	ssh = remote set-url origin
+	forcepull = git reset --hard HEAD && git pull
