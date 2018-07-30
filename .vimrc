@@ -23,12 +23,11 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'joshdick/onedark.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'ascenator/L9', {'name': 'newL9'}
-
+Plugin 'liuchengxu/space-vim-dark'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -68,3 +67,4 @@ set t_Co=256
 set term=xterm-256color
 set t_ut=
 colorscheme space-vim-dark 
+
