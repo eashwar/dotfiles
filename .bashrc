@@ -83,12 +83,13 @@ fi
 ## OTHER ENV VARIABLES
 export DISPLAY=localhost:0.0
 ## PATHS
-export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/Users/eashw/Documents/GitHub/now-playing:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/
+export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/Users/eashw/Documents/GitHub/now-playing:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/:/mnt/c/Program\ Files/Microsoft\ VS\ Code
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
 alias astyle='astyle -A1 -s4 -C -S -N -Y -m0 -p -xg -D -k1 -W3i -xf -xh -c'
 alias chrome='chrome.exe'
+alias code='Code.exe'
 alias node='node.exe'
 alias sl='sl -e -a'
 alias c='clear'
