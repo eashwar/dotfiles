@@ -83,7 +83,7 @@ fi
 ## OTHER ENV VARIABLES
 export DISPLAY=localhost:0.0
 ## PATHS
-export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/Users/eashw/Documents/GitHub/now-playing:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/:/mnt/c/Program\ Files/Microsoft\ VS\ Code
+export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/Users/eashw/Documents/GitHub/now-playing:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/:/mnt/c/Users/eashw/AppData/Local/Microsoft\ VS\ Code/
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
