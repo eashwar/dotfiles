@@ -87,6 +87,7 @@ export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
+alias pls='sudo'
 alias astyle='astyle -A1 -s4 -C -S -N -Y -m0 -p -xg -D -k1 -W3i -xf -xh -c'
 alias chrome='chrome.exe'
 alias code='Code.exe'
