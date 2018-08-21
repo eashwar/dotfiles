@@ -10,11 +10,6 @@ Host occaen
   HostName oncampus-course.engin.umich.edu
   User eashwar
 
-Host github
-  HostName github.com
-  User git
-  IdentityFile ~/.ssh/github
-
 Host metalface
   HostName localhost
   User eashw
