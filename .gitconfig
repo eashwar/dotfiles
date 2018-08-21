@@ -2,7 +2,7 @@
 	email = eashwar@umich.edu
 	name = Eashwar Mohan
 [credential]
-	helper = cache
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
 [core]
 	editor = vim
 	autocrlf = input
