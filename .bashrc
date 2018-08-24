@@ -83,7 +83,7 @@ fi
 ## OTHER ENV VARIABLES
 export DISPLAY=localhost:0.0
 ## PATHS
-export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/Users/eashw/Documents/GitHub/now-playing:/mnt/c/Users/eashw/Downloads/coding\ stuff/astyle_3.1_linux/astyle/build/gcc/bin/:/mnt/c/Users/eashw/AppData/Local/Microsoft\ VS\ Code/
+export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/git/now-playing:/mnt/c/Users/Eashwar\ Mohan/AppData/Local/Microsoft\ VS\ Code/
 export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
@@ -91,23 +91,22 @@ alias pls='sudo'
 alias astyle='astyle -A1 -s4 -C -S -N -Y -m0 -p -xg -D -k1 -W3i -xf -xh -c'
 alias chrome='chrome.exe'
 alias code='Code.exe'
-alias node='node.exe'
 alias sl='sl -e -a'
 alias c='clear'
 eval $(thefuck --alias)
 eval $(thefuck --alias heck)
 alias updaterino='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
-alias website='/mnt/c/Users/eashw/Documents/GitHub/eashwar.github.io'
-alias 281='cd /mnt/c/Users/eashw/OneDrive/umich/FA2018/EECS281'
-alias 370='cd /mnt/c/Users/eashw/OneDrive/umich/FA2018/EECS370'
-alias 250='cd /mnt/c/Users/eashw/OneDrive/umich/FA2018/STATS250'
-alias 137='cd /mnt/c/Users/eashw/OneDrive/umich/FA2018/THEORY137'
-alias 391='cd /mnt/c/Users/eashw/OneDrive/umich/FA2018/MUSPERF391'
+alias website='/mnt/c/git/eashwar.github.io'
+alias 281='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2018/EECS281'
+alias 370='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2018/EECS370'
+alias 250='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2018/STATS250'
+alias 137='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2018/THEORY137'
+alias 391='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2018/MUSPERF391'
 alias syncat='pygmentize -g'
 alias launch='cmd.exe /C start'
-alias home='cd /mnt/c/Users/eashw'
-alias sdldir='cd /mnt/c/Users/eashw/OneDrive/Documents/sdl'
+alias home='cd /mnt/c/Users/Eashwar\ Mohan'
+alias sdldir='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/Documents/sdl'
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
 
