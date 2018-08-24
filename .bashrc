@@ -93,8 +93,6 @@ alias chrome='chrome.exe'
 alias code='Code.exe'
 alias sl='sl -e -a'
 alias c='clear'
-eval $(thefuck --alias)
-eval $(thefuck --alias heck)
 alias updaterino='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
 alias website='/mnt/c/git/eashwar.github.io'
@@ -125,3 +123,6 @@ export PS1="$PS1\[\033[38;5;9m\]]\[\033[m\]" # close bracket, default bg and red
 export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
 
 export PS2="\[\033[1;38;5;117m\]close your quotes dummy\[\033[m\] > "
+# Install Ruby Gems to ~/gems
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
