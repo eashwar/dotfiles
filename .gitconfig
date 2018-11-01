@@ -13,3 +13,8 @@
 	dog = log --all --decorate --oneline --graph
 	ssh = remote set-url origin
 	forcepull = "!f() { git reset --hard HEAD; git pull; }; f"
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
