@@ -88,7 +88,7 @@ export GOPATH="/home/eashw/gocode"
 
 ## ALIAS DEFINITIONS
 alias pls='sudo'
-alias astyle='astyle -A1 -s4 -C -S -N -Y -m0 -p -xg -D -k1 -W3i -xf -xh -c'
+alias astyle='astyle -A2 -s4 -C -S -N -Y -m0 -p -xg -D -k1 -W3i -xf -xh -c -xw'
 alias chrome='chrome.exe'
 alias code='Code.exe'
 alias sl='sl -e -a'
