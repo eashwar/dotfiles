@@ -84,7 +84,9 @@ fi
 export DISPLAY=localhost:0.0
 ## PATHS
 export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/git/now-playing/:/mnt/c/Users/Eashwar\ Mohan/AppData/Local/Microsoft\ VS\ Code/:/home/eashw/astyle/build/gcc/bin
-export GOPATH="/home/eashw/gocode"
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ## ALIAS DEFINITIONS
 alias pls='sudo'
