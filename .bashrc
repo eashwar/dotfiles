@@ -99,6 +99,7 @@ alias updaterino='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-u
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
 alias website='/mnt/c/git/eashwar.github.io'
 alias 376='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/WI2019/EECS376'
+alias 388='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/WI2019/EECS388'
 alias syncat='pygmentize -g'
 alias launch='cmd.exe /C start'
 alias home='cd /mnt/c/Users/Eashwar\ Mohan'
