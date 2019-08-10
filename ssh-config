@@ -9,8 +9,3 @@ Host caen login.engin.umich.edu
 Host occaen
   HostName oncampus-course.engin.umich.edu
   User eashwar
-
-Host metalface
-  HostName localhost
-  User eashw
-  Port 6290
