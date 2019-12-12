@@ -91,28 +91,22 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 ## ALIAS DEFINITIONS
 alias pls='sudo'
 alias astyle='astyle -A2 -s4 -C -S -N -Y -m0 -p -xg -D -k1 -W3i -xf -xh -c -xw'
-alias chrome='chrome.exe'
-alias code='Code.exe'
 alias sl='sl -e -a'
 alias c='clear'
-alias updaterino='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
+alias update='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
 alias website='/mnt/c/git/eashwar.github.io'
-alias 376='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/WI2019/EECS376'
-alias 388='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/WI2019/EECS388'
-alias syncat='pygmentize -g'
+alias 485='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2019/eecs485'
 alias launch='cmd.exe /C start'
 alias home='cd /mnt/c/Users/Eashwar\ Mohan'
-alias sdldir='cd /mnt/c/git/sdl'
+alias odr='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive'
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
 
+
 ## PS1 AND PS2 DEFINITION
 #export PS1="\$(spotify)\n"
-#export PS1="$PS1\[\033[38;5;135m\]|\[\033[m\]" # Pipe, default bg and purple
-export PS1="\[\033[38;5;135m\]|\[\033[m\]" # Pipe, default bg and purple
-export PS1="$PS1\[\033[38;5;135m\]\A\[\033[m\]" # Time, default bg and purple
-export PS1="$PS1\[\033[38;5;135m\]|\[\033[m\]" # Pipe, default bg and purple
+export PS1="\[\033[38;5;135m\]|\A|\[\033[m\]" # | time |, default bg and purple
 export PS1="$PS1\[\033[1;38;5;14m\]\u\[\033[m\]" # Username, black and cyan
 export PS1="$PS1\[\033[38;5;32m\]@\[\033[m\]" # at symbol, default bg and blue
 export PS1="$PS1\[\033[1;38;5;32m\]\h\[\033[m\]" # hostname, default bg and blue
@@ -120,8 +114,7 @@ export PS1="$PS1\[\033[38;5;9m\][\[\033[m\]" # open bracket, default bg and red
 export PS1="$PS1\[\033[1;38;5;9m\]\W\[\033[m\]" # working dir, default bg and red
 export PS1="$PS1\[\033[38;5;9m\]]\[\033[m\]" # close bracket, default bg and red 
 export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
-
-export PS2="\[\033[1;38;5;117m\]close your quotes dummy\[\033[m\] > "
+#export PS1="\$(pwd)\n\$"
 # Install Ruby Gems to ~/gems
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH

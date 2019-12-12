@@ -10,6 +10,8 @@
 [push]
 	default = matching
 [alias]
+    st = status
 	dog = log --all --decorate --oneline --graph
 	ssh = remote set-url origin
 	forcepull = "!f() { git reset --hard HEAD; git pull; }; f"
+	last = log -1 HEAD
