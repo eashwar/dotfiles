@@ -1,8 +1,6 @@
 [user]
 	email = eashwar@umich.edu
 	name = Eashwar Mohan
-[credential]
-	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
 [core]
 	editor = vim
 	autocrlf = input
@@ -13,3 +11,5 @@
 	dog = log --all --decorate --oneline --graph
 	ssh = remote set-url origin
 	forcepull = "!f() { git reset --hard HEAD; git pull; }; f"
+[credential]
+	helper = store
