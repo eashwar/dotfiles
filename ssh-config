@@ -1,5 +1,4 @@
-
-Host caen login.engin.umich.edu
+Host caen
   HostName login.engin.umich.edu
   User eashwar
   ControlMaster auto
