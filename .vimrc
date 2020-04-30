@@ -54,4 +54,4 @@ syntax on
 set t_Co=256
 set term=xterm-256color
 set t_ut=
-colorscheme flatui
+colorscheme monokai
