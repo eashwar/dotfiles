@@ -83,7 +83,6 @@ fi
 ## OTHER ENV VARIABLES
 export DISPLAY=localhost:0.0
 ## PATHS
-export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/:/mnt/c/Program\ Files/nodesjs/:/mnt/c/git/now-playing/:/mnt/c/Users/Eashwar\ Mohan/AppData/Local/Microsoft\ VS\ Code/:/home/eashw/astyle/build/gcc/bin
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
@@ -95,11 +94,9 @@ alias sl='sl -e -a'
 alias c='clear'
 alias update='sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade'
 alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
-alias website='/mnt/c/git/eashwar.github.io'
-alias 485='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive/umich/FA2019/eecs485'
 alias launch='cmd.exe /C start'
-alias home='cd /mnt/c/Users/Eashwar\ Mohan'
-alias odr='cd /mnt/c/Users/Eashwar\ Mohan/OneDrive'
+alias home='cd /mnt/c/Users/eash'
+alias odr='cd /mnt/c/Users/eash/OneDrive'
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
 
