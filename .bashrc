@@ -81,7 +81,7 @@ if ! shopt -oq posix; then
 fi
 
 ## OTHER ENV VARIABLES
-export DISPLAY=localhost:0.0
+export DISPLAY=:0
 ## PATHS
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
@@ -97,9 +97,11 @@ alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
 alias launch='cmd.exe /C start'
 alias home='cd /mnt/c/Users/eash'
 alias odr='cd /mnt/c/Users/eash/OneDrive'
-alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
-
+alias python='python3'
+alias neofetch='neofetch --ascii_colors 1 2 3 4 5 6'
+alias ping='ping -c 4'
+eval $(thefuck --alias)
 
 ## PS1 AND PS2 DEFINITION
 #export PS1="\$(spotify)\n"
@@ -115,3 +117,11 @@ export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
 # Install Ruby Gems to ~/gems
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
+
+neofetch # run neofetch on start of a new terminal instance
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=/usr/local/mysql/bin:$PATH
