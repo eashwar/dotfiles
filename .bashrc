@@ -81,7 +81,7 @@ if ! shopt -oq posix; then
 fi
 
 ## OTHER ENV VARIABLES
-export DISPLAY=localhost:0.0
+export DISPLAY=:0
 ## PATHS
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
@@ -99,6 +99,10 @@ alias home='cd /mnt/c/Users/eash'
 alias odr='cd /mnt/c/Users/eash/OneDrive'
 alias caen='ssh -X caen'
 alias rm='rm -i'
+alias python='python3'
+alias neofetch='neofetch --ascii_colors 1 2 3 4 5 6'
+alias ping='ping -c 4'
+eval $(thefuck --alias)
 
 ## PS1 AND PS2 DEFINITION
 #export PS1="\$(spotify)\n"
@@ -120,6 +124,10 @@ neofetch
 # opam configuration
 test -r /home/eash/.opam/opam-init/init.sh && . /home/eash/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
+neofetch # run neofetch on start of a new terminal instance
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=/usr/local/mysql/bin:$PATH
