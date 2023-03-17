@@ -97,9 +97,8 @@ alias g++='g++ -Wall -Werror -pedantic -g --std=c++11'
 alias launch='cmd.exe /C start'
 alias home='cd /mnt/c/Users/eash'
 alias odr='cd /mnt/c/Users/eash/OneDrive'
-alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias caen='ssh -X caen'
-
+alias rm='rm -i'
 
 ## PS1 AND PS2 DEFINITION
 #export PS1="\$(spotify)\n"
@@ -115,3 +114,12 @@ export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
 # Install Ruby Gems to ~/gems
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
+export PATH=/home/eash/cmake-3.19.0-rc3-Linux-x86_64/bin:$PATH
+neofetch
+
+# opam configuration
+test -r /home/eash/.opam/opam-init/init.sh && . /home/eash/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
