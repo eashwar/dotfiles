@@ -119,7 +119,6 @@ export PS1="$PS1\[\033[39m\]:\[\033[m\] " # colon, default
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 export PATH=/home/eash/cmake-3.19.0-rc3-Linux-x86_64/bin:$PATH
-neofetch
 
 # opam configuration
 test -r /home/eash/.opam/opam-init/init.sh && . /home/eash/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
